@@ -4,9 +4,9 @@ In this assignment you will build and evaluate several machine learning models t
 
 # Resampling
 Run a simple logistic regression. Then perform following calculations to answer the below questions: 
-Oversample the data using the Naive Random Oversampler and SMOTE algorithms.
-Undersample the data using the Cluster Centroids algorithm.
-Over- and undersample using a combination SMOTEENN algorithm
+- Oversample the data using the Naive Random Oversampler and SMOTE algorithms.
+- Undersample the data using the Cluster Centroids algorithm.
+- Over and undersample using a combination SMOTEENN algorithm
 
 ## Which model had the best balanced accuracy score?
 
@@ -25,11 +25,10 @@ Over- and undersample using a combination SMOTEENN algorithm
 In this section, you will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. You will use the Balanced Random Forest Classifier and the Easy Ensemble Classifier. 
 
 Then, complete the following steps for each model to answer the below questions:
-Train the model using the quarterly data from LendingClub provided in the Resource folder.
-Calculate the balanced accuracy score from sklearn.metrics.
-Display the confusion matrix from sklearn.metrics.
-Generate a classification report using the imbalanced_classification_report from imbalanced learn.
-For the balanced random forest classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score.
+- Calculate the balanced accuracy score from sklearn.metrics.
+- Display the confusion matrix from sklearn.metrics.
+- Generate a classification report using the imbalanced_classification_report from imbalanced learn.
+- For the balanced random forest classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score.
 
 
 ## Which model had the best balanced accuracy score?
