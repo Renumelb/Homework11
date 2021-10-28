@@ -3,9 +3,10 @@
 In this assignment you will build and evaluate several machine learning models to predict credit risk using data you would typically see from peer-to-peer lending services. This assignment is divided into two sections- Resampling and Ensemble Learning.
 
 # Section 1: Resampling
-You will run a simple logistic regression and perform required calculations to answer the below questions. 
+You will run a simple logistic regression and perform the required calculations to answer the below questions. 
+
 Steps:
-- Import the data
+- Import the data.
 - Oversample the data using the Naive Random Oversampler and SMOTE algorithms.
 - Undersample the data using the Cluster Centroids algorithm.
 - Over and undersample using a combination SMOTEENN algorithm.
@@ -13,7 +14,7 @@ Steps:
 - Display the confusion matrix for each.
 - Generate a classification report using the imbalanced_classification_report for each.
 
-## Final Questions
+## Questions
 
 1. Which model had the best balanced accuracy score?
 
@@ -31,7 +32,7 @@ All models had the same geometric mean score.
 # Section 2: Ensemble Learning
 In this section, you will train and compare two different ensemble classifiers to predict loan risk and evaluate each model. The two models that will be used are Balanced Random Forest Classifier and the Easy Ensemble Classifier. 
 
-Complete the following steps for each model to answer the below questions:
+You will complete the following steps for each model to answer the below questions:
 - Import the data.
 - Calculate the balanced accuracy score.
 - Display the confusion matrix.
@@ -39,7 +40,7 @@ Complete the following steps for each model to answer the below questions:
 - For the balanced random forest classifier only, print the feature importance sorted in descending order (most important feature to least important) along with the feature score.
 
 
-## Final Questions
+## Questions
 
 1. Which model had the best balanced accuracy score?
 
